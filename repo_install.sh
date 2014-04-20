@@ -39,6 +39,14 @@ done
 echo 0
 sleep 1
 
+##jali##
+
+for RPM in *.rpm; do
+	echo "installing RPMs"
+	rpm -Uvh $RPM
+done
+	
+	
 for KEYFILE in *.repo.key; do
 	echo "Inserting key from $KEYFILE"
 	rpm --import $KEYFILE
