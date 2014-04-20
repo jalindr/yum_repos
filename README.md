@@ -1,2 +1,1 @@
-
-== jalindr's bulls and cocks of yum repos 
+ jalindr's bulls and cocks of yum repos 
